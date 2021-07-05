@@ -78,3 +78,17 @@ h2{
     color: white;
     border-radius: 30px;
 }
+
+/*===============================================================
+    ABOUT ME SECTION
+===============================================================*/
+#about-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-me h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
