@@ -113,7 +113,7 @@ h2{
     margin: 20px;
     padding: 10px;
     padding-bottom: 30px;
-    box-shadow: 10px 10px 30px grey;
+    box-shadow: 3px 3px 15px grey;
     border-radius: 15px;
 }
 .recipie-item h3{
@@ -129,8 +129,62 @@ h2{
     border-radius: 15px;
 }
 .read-button {
-    background-color: orange;
+    background-image: linear-gradient(orange , salmon);
     padding: 10px 30px;
     color: white;
     border-radius: 5px;
+}
+/*===============================================================
+    COUNTING SECTION
+===============================================================*/
+#counting-section{
+    box-shadow: 3px 3px 15px grey;
+    margin: 0 20px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+}
+.counting {
+    width: 30%;
+    margin: 60px;
+    padding: 30px;
+}
+/*===============================================================
+    SUBSCRIPTION SECTION
+===============================================================*/
+#subscription-section{
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.subscribe{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 30px;
+}
+.email-field{
+    text-align: center;
+}
+.email-field input{
+    padding: 10px 30px;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+/*===============================================================
+    FOOTER SECTION
+===============================================================*/
+footer {
+    background-color: rgb(2, 2, 22);
+    padding-top: 40px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: grey;
+}
+footer h2 {
+    margin-bottom: 30px;
+}
+span{
+    color: orange;
 }
